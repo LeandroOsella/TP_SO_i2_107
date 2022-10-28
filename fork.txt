@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Lucas Soriano Baccarelli, 192.168.0.2, 11:47
+=======
+Tomas Agustin Gauna, 192.168.0.12, 11:59
+>>>>>>> 9b6ea8993fbdb89ae95954cb7c3acee19dd213ac
