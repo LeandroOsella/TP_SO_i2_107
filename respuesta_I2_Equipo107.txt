@@ -17,3 +17,11 @@ Si, al actualizar un repositorio se sobreescribiran los archivos y su contenido,
 
 e- realizar un listado, paso a paso ,de los comando necesarios para resolver este TP por
 orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos.
+
+1er Paso: Beta crea el repositorio y un archivo llamado "fork.txt".
+2do Paso: Gamma forkea el repositorio de Beta y, en una carpeta de su computadora, usa el comando "git clone" junto con la ruta del repositorio.
+3er Paso: Gamma usa el "git add ." para despues utilizar "git commit -m 'texto'", para agregar un commit y actualizar los datos. Luego usa el "git push" para que se carguen en el repositorio.
+4to Paso: Alfa forkea el repositorio de Beta y hace los mismos pasos (2do y 3er) que Gamma. Utilizando los mismos comandos.
+5to Paso: Beta descarga su propio repositorio en forma local con el "git clone" y la ruta de su repositorio. Crea el archivo nuevoDato.txt, hace un commit(git add . --> git commit -m 'texto') y hace el "git push" para actualizar el repositorio.
+6to Paso: Gamma y Alfa actualizan su repositorio al estado en que lo dejo Beta mediante el 'Sync Fork'.
+7mo Paso: Para que Alfa actualice su fork al estado de Gamma, se ultiliza el pull request y vicerversa, para que Gamma actualice su fork al estado de Alfa.
