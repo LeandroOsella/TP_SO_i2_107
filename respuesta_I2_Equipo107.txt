@@ -4,9 +4,16 @@ Leandro Ezequiel Osella
 
 a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
 Desde la pagina, vas a tu repositorio forkeado y te saldria la opcion Sync fork, al apretarlo se te actualiza el repositorio.
+
 b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+Si, se puede mediante comandos y desde la pagina con un pull request.
+
 c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
+Al igual que en el caso anterior, si, pueden realizarlo mediante comandos o con un pull request desde la pagina de github.
+
 d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
 el fork?
+Si, al actualizar un repositorio se sobreescribiran los archivos y su contenido, en nuestro caso, al realizar la actualizacion mediante pull request seleccionamos los archivos que deseamos actualizar y el resto quedaron intactos con su respectivo contenido.
+
 e- realizar un listado, paso a paso ,de los comando necesarios para resolver este TP por
 orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos.
